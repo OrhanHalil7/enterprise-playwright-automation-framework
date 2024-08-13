@@ -1,0 +1,94 @@
+2024-08-12T20:39:32-04:00 [info]: Creating new contact test started
+2024-08-12T20:39:33-04:00 [info]: Navigated to login page
+2024-08-12T20:39:33-04:00 [info]: Entered username
+2024-08-12T20:39:33-04:00 [info]: Entered password
+2024-08-12T20:39:34-04:00 [info]: Clicked login button
+2024-08-12T20:39:37-04:00 [info]: Service title is visible
+2024-08-12T20:39:37-04:00 [info]: App launcher button is clicked
+2024-08-12T20:39:37-04:00 [info]: Service app is clicked
+2024-08-12T20:39:39-04:00 [info]: Contact tab is visible
+2024-08-12T20:39:39-04:00 [info]: Contact tab is clicked
+2024-08-12T20:39:41-04:00 [info]: New contact button is clicked
+2024-08-12T20:39:41-04:00 [info]: First name is entered as John
+2024-08-12T20:39:41-04:00 [info]: First name is entered as Doe
+2024-08-12T20:39:42-04:00 [info]: Save button is clicked
+2024-08-12T20:39:44-04:00 [info]: Creating new contact test completed
+2024-08-12T20:39:44-04:00 [info]: Creating new contact test started
+2024-08-12T20:39:44-04:00 [info]: Navigated to login page
+2024-08-12T20:39:44-04:00 [info]: Entered username
+2024-08-12T20:39:44-04:00 [info]: Entered password
+2024-08-12T20:39:44-04:00 [info]: Clicked login button
+2024-08-12T20:39:59-04:00 [error]: Error waiting for service title to be visible: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-08-12T20:40:00-04:00 [info]: Creating new contact test started
+2024-08-12T20:40:00-04:00 [info]: Navigated to login page
+2024-08-12T20:40:00-04:00 [info]: Entered username
+2024-08-12T20:40:00-04:00 [info]: Entered password
+2024-08-12T20:40:00-04:00 [info]: Clicked login button
+2024-08-12T20:40:15-04:00 [error]: Error waiting for service title to be visible: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-08-12T20:40:16-04:00 [info]: Navigated to login page
+2024-08-12T20:40:16-04:00 [info]: Entered username
+2024-08-12T20:40:16-04:00 [info]: Entered password
+2024-08-12T20:40:17-04:00 [info]: Clicked login button
+2024-08-12T20:40:27-04:00 [info]: Service title is visible
+2024-08-12T20:40:27-04:00 [info]: Login successfully completed
+2024-08-12T20:46:53-04:00 [info]: Creating new contact test started
+2024-08-12T20:46:53-04:00 [info]: Creating new contact test started
+2024-08-12T20:46:53-04:00 [info]: Creating new contact test started
+2024-08-12T20:46:54-04:00 [info]: Navigated to login page
+2024-08-12T20:46:54-04:00 [info]: Navigated to login page
+2024-08-12T20:46:54-04:00 [info]: Entered username
+2024-08-12T20:46:54-04:00 [info]: Entered password
+2024-08-12T20:46:54-04:00 [info]: Entered username
+2024-08-12T20:46:54-04:00 [info]: Entered password
+2024-08-12T20:46:54-04:00 [info]: Navigated to login page
+2024-08-12T20:46:54-04:00 [info]: Entered username
+2024-08-12T20:46:54-04:00 [info]: Entered password
+2024-08-12T20:46:54-04:00 [info]: Clicked login button
+2024-08-12T20:46:54-04:00 [info]: Clicked login button
+2024-08-12T20:46:54-04:00 [info]: Clicked login button
+2024-08-12T20:46:57-04:00 [info]: Service title is visible
+2024-08-12T20:46:57-04:00 [info]: Service title is visible
+2024-08-12T20:46:58-04:00 [info]: App launcher button is clicked
+2024-08-12T20:46:58-04:00 [info]: App launcher button is clicked
+2024-08-12T20:46:58-04:00 [info]: Service title is visible
+2024-08-12T20:46:59-04:00 [info]: App launcher button is clicked
+2024-08-12T20:46:59-04:00 [info]: Service app is clicked
+2024-08-12T20:46:59-04:00 [info]: Service app is clicked
+2024-08-12T20:46:59-04:00 [info]: Service app is clicked
+2024-08-12T20:47:01-04:00 [info]: Contact tab is visible
+2024-08-12T20:47:01-04:00 [info]: Contact tab is clicked
+2024-08-12T20:47:01-04:00 [info]: Contact tab is visible
+2024-08-12T20:47:01-04:00 [info]: Contact tab is clicked
+2024-08-12T20:47:01-04:00 [info]: Contact tab is visible
+2024-08-12T20:47:01-04:00 [info]: Contact tab is clicked
+2024-08-12T20:47:02-04:00 [info]: New contact button is clicked
+2024-08-12T20:47:02-04:00 [info]: New contact button is clicked
+2024-08-12T20:47:02-04:00 [info]: New contact button is clicked
+2024-08-12T20:47:03-04:00 [info]: First name is entered as Bob
+2024-08-12T20:47:03-04:00 [info]: First name is entered as John
+2024-08-12T20:47:03-04:00 [info]: First name is entered as Smith
+2024-08-12T20:47:03-04:00 [info]: First name is entered as Doe
+2024-08-12T20:47:03-04:00 [info]: Save button is clicked
+2024-08-12T20:47:03-04:00 [info]: Save button is clicked
+2024-08-12T20:47:03-04:00 [info]: First name is entered as Jane
+2024-08-12T20:47:03-04:00 [info]: First name is entered as Mitchell
+2024-08-12T20:47:04-04:00 [info]: Save button is clicked
+2024-08-12T20:47:05-04:00 [info]: Creating new contact test completed
+2024-08-12T20:47:05-04:00 [info]: Creating new contact test completed
+2024-08-12T20:47:06-04:00 [info]: Creating new contact test completed
