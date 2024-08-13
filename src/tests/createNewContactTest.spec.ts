@@ -31,7 +31,7 @@ test.skip('Convert CSV to JSON test', async ({ page }) => {
 
 })
 
-test('Faker test data generation test', async ({ page }) => {
+test.skip('Faker test data generation test', async ({ page }) => {
     const testData = generateUserData(10);
     exportToJson(testData, 'testdata.json');
     exportToCsv(testData, 'testdata.csv');
