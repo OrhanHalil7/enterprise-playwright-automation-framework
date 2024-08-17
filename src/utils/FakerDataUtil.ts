@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 import * as fs from 'fs';
 import path from 'path';
 import * as csvWriter from 'csv-writer';
-import { createArrayCsvWriter, createObjectCsvWriter } from 'csv-writer';
+import { createObjectCsvWriter } from 'csv-writer';
 
 
 //Define type of the user data

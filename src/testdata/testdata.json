@@ -1,102 +1,52 @@
 [
   {
-    "firstName": "Giles",
-    "lastName": "Dooley",
-    "email": "Javier_Schoen86@hotmail.com",
-    "password": "9XXd3pHSqCt8MTk",
-    "phoneNumber": "741-579-7056 x882",
-    "address": "858 Washington Boulevard",
-    "city": "Twin Falls",
-    "age": 24
+    "firstName": "Kaden",
+    "lastName": "Collins",
+    "email": "Destini.Dickinson17@gmail.com",
+    "password": "CdtJ06piH4D7reu",
+    "phoneNumber": "487.803.9626 x672",
+    "address": "52879 Church Close",
+    "city": "North Freddyport",
+    "age": 65
   },
   {
-    "firstName": "Marcelo",
-    "lastName": "Greenholt",
-    "email": "Jillian_Swift@yahoo.com",
-    "password": "2N7hGz75VMlYN2u",
-    "phoneNumber": "981-313-2133",
-    "address": "64736 Idell Islands",
-    "city": "Bristol",
-    "age": 53
+    "firstName": "Baby",
+    "lastName": "Lowe",
+    "email": "Dean_Hodkiewicz@gmail.com",
+    "password": "ixwnE5uYXkODsWA",
+    "phoneNumber": "987-890-6794 x8512",
+    "address": "3661 Jennifer Brooks",
+    "city": "Angelinefort",
+    "age": 48
   },
   {
-    "firstName": "Gretchen",
-    "lastName": "Ortiz",
-    "email": "Leonard30@hotmail.com",
-    "password": "tDfywnnXJbWgwfZ",
-    "phoneNumber": "561-612-8578 x1997",
-    "address": "810 E 8th Street",
-    "city": "Fort Godfrey",
-    "age": 62
+    "firstName": "Tobin",
+    "lastName": "Mayer",
+    "email": "Sheldon.Braun65@gmail.com",
+    "password": "IDDfZEctab7Fo_Y",
+    "phoneNumber": "906-978-2497",
+    "address": "9023 Hilario Centers",
+    "city": "Fort Preciousberg",
+    "age": 26
   },
   {
-    "firstName": "Stanford",
-    "lastName": "Kassulke",
-    "email": "Devonte.Rippin45@hotmail.com",
-    "password": "ZbaOtEHPQ7yKVJQ",
-    "phoneNumber": "(875) 973-0806 x11669",
-    "address": "944 Schmidt Mountain",
-    "city": "Fort Faehaven",
-    "age": 36
+    "firstName": "Noemy",
+    "lastName": "O'Reilly",
+    "email": "Sincere2@hotmail.com",
+    "password": "NPDKfj7AKvkZGee",
+    "phoneNumber": "777.639.2835 x76649",
+    "address": "942 Blind Lane",
+    "city": "Wehnerfurt",
+    "age": 37
   },
   {
-    "firstName": "Eda",
-    "lastName": "Kshlerin",
-    "email": "Maymie_Bradtke23@hotmail.com",
-    "password": "cSBarIL4M4AdXTN",
-    "phoneNumber": "314-263-6999 x7717",
-    "address": "585 Medhurst Avenue",
-    "city": "Weissnatchester",
-    "age": 40
-  },
-  {
-    "firstName": "Karine",
-    "lastName": "Legros",
-    "email": "Lafayette.Feeney15@hotmail.com",
-    "password": "AEEGNE2Cgk8oAg6",
-    "phoneNumber": "1-981-821-5072 x95900",
-    "address": "510 Jackeline Parks",
-    "city": "Temecula",
-    "age": 18
-  },
-  {
-    "firstName": "Sydnee",
-    "lastName": "Mraz",
-    "email": "Ilene_Johns67@gmail.com",
-    "password": "nGt7kFx2tQY2eQR",
-    "phoneNumber": "314.395.4786 x41891",
-    "address": "2273 8th Street",
-    "city": "Huelsstad",
-    "age": 33
-  },
-  {
-    "firstName": "Valentina",
-    "lastName": "Jones",
-    "email": "Jed_OConnell54@yahoo.com",
-    "password": "C0yl9rawHKhrMDY",
-    "phoneNumber": "346-532-6371 x95012",
-    "address": "173 Ridge Road",
-    "city": "Port Jaceworth",
-    "age": 59
-  },
-  {
-    "firstName": "Jarrod",
-    "lastName": "Morissette",
-    "email": "Stefanie90@gmail.com",
-    "password": "nwQ9XHtSpfgJq1U",
-    "phoneNumber": "223-626-3337 x9418",
-    "address": "5691 Barton Mall",
-    "city": "Careyfield",
-    "age": 49
-  },
-  {
-    "firstName": "Aditya",
-    "lastName": "Metz",
-    "email": "Dortha70@gmail.com",
-    "password": "tA_qNCeO2D72RiA",
-    "phoneNumber": "966.353.5124 x90597",
-    "address": "9310 Howard Street",
-    "city": "Jenacester",
-    "age": 31
+    "firstName": "Andy",
+    "lastName": "McDermott",
+    "email": "Richard_Gottlieb@gmail.com",
+    "password": "MP8n4IWfVYpAtru",
+    "phoneNumber": "970-235-8798 x20602",
+    "address": "8560 D'angelo Place",
+    "city": "Kettering",
+    "age": 22
   }
 ]

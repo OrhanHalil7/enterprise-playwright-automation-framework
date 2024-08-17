@@ -1,0 +1,83 @@
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "origin": "https://c.salesforce.com",
+  "referer": "https://www.salesforce.com/etc.bundles/sfdc-www/bundles/all.bundle.e3a5dd1da62979577e80.css?bc=HB",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "cookie": "BrowserId=ZSMu7lqbEe-QOE8wKJj6rQ; webact=%7B%22l_vdays%22%3A-1%2C%22l_visit%22%3A0%2C%22session%22%3A1723680890161%2C%22l_search%22%3A%22%22%2C%22l_dtype%22%3A%22%22%2C%22l_page%22%3A%22SFDC%3Aus%3Alogin%22%2C%22l_page_url%22%3A%22https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html%22%2C%22counter%22%3A0%2C%22pv%22%3A1%2C%22f_visit%22%3A1723680890161%2C%22seg%22%3A%22non-customer%3Aus%22%7D; gtm_session_start=1723680890614",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "origin": "https://c.salesforce.com",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "origin": "https://c.salesforce.com",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "*/*",
+  "accept-language": "en-US",
+  "origin": "https://c.salesforce.com",
+  "referer": "https://c.salesforce.com/login-messages/promos.html",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36",
+  "sec-ch-ua": "\"Not)A;Brand\";v=\"99\", \"HeadlessChrome\";v=\"127\", \"Chromium\";v=\"127\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"Windows\""
+}
+         Modified Request type is GET
+2024-08-14T20:14:50-04:00 [info]: Modified Request headers is {
+  "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+  "accept-language": "en-US",
+  "cookie": "BrowserId=ZSMu7lqbEe-QOE8wKJj6rQ; webact=%7B%22l_vdays%22%3A-1%2C%22l_visit%22%3A0%2C%22session%22%3A1723680890161%2C%22l_search%22%3A%22%22%2C%22l_dtype%22%3A%22%22%2C%22l_page%22%3A%22SFDC%3Aus%3Alogin%22%2C%22l_page_url%22%3A%22https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html%22%2C%22counter%22%3A0%2C%22pv%22%3A1%2C%22f_visit%22%3A1723680890161%2C%22seg%22%3A%22non-customer%3Aus%22%7D; OptanonConsent=isGpcEnabled=0&datestamp=Wed+Aug+14+2024+20%3A14%3A50+GMT-0400+(Eastern+Daylight+Time)&version=202401.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=afa2da00-f5dd-4cd3-b882-ea3679b64c26&interactionCount=0&landingPath=https%3A%2F%2Fc.salesforce.com%2Flogin-messages%2Fpromos.html",
+  "referer": "https://c.salesforce.com/",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.17 Safari/537.36"
+}
+         Modified Request type is GET

@@ -1,96 +1,91 @@
-2024-08-12T20:57:22-04:00 [info]: Creating new contact test started
-2024-08-12T20:57:22-04:00 [info]: Creating new contact test started
-2024-08-12T20:57:22-04:00 [info]: Creating new contact test started
-2024-08-12T20:57:22-04:00 [info]: Navigated to login page
-2024-08-12T20:57:22-04:00 [info]: Entered username
-2024-08-12T20:57:22-04:00 [info]: Navigated to login page
-2024-08-12T20:57:22-04:00 [info]: Entered password
-2024-08-12T20:57:22-04:00 [info]: Navigated to login page
-2024-08-12T20:57:22-04:00 [info]: Entered username
-2024-08-12T20:57:22-04:00 [info]: Entered password
-2024-08-12T20:57:22-04:00 [info]: Entered username
-2024-08-12T20:57:22-04:00 [info]: Entered password
-2024-08-12T20:57:23-04:00 [info]: Clicked login button
-2024-08-12T20:57:23-04:00 [info]: Clicked login button
-2024-08-12T20:57:23-04:00 [info]: Clicked login button
-2024-08-12T20:57:25-04:00 [info]: Service title is visible
-2024-08-12T20:57:25-04:00 [info]: App launcher button is clicked
-2024-08-12T20:57:25-04:00 [info]: Service title is visible
-2024-08-12T20:57:25-04:00 [info]: App launcher button is clicked
-2024-08-12T20:57:26-04:00 [info]: Service app is clicked
-2024-08-12T20:57:26-04:00 [info]: Service app is clicked
-2024-08-12T20:57:26-04:00 [info]: Service title is visible
-2024-08-12T20:57:26-04:00 [info]: App launcher button is clicked
-2024-08-12T20:57:26-04:00 [info]: Service app is clicked
-2024-08-12T20:57:27-04:00 [info]: Contact tab is visible
-2024-08-12T20:57:28-04:00 [info]: Contact tab is clicked
-2024-08-12T20:57:28-04:00 [info]: Contact tab is visible
-2024-08-12T20:57:28-04:00 [info]: Contact tab is clicked
-2024-08-12T20:57:28-04:00 [info]: Contact tab is visible
-2024-08-12T20:57:28-04:00 [info]: Contact tab is clicked
-2024-08-12T20:57:29-04:00 [info]: New contact button is clicked
-2024-08-12T20:57:29-04:00 [info]: New contact button is clicked
-2024-08-12T20:57:29-04:00 [info]: New contact button is clicked
-2024-08-12T20:57:30-04:00 [info]: First name is entered as John
-2024-08-12T20:57:30-04:00 [info]: First name is entered as Doe
-2024-08-12T20:57:30-04:00 [info]: First name is entered as Jane
-2024-08-12T20:57:30-04:00 [info]: First name is entered as Mitchell
-2024-08-12T20:57:30-04:00 [info]: Save button is clicked
-2024-08-12T20:57:30-04:00 [info]: First name is entered as Bob
-2024-08-12T20:57:30-04:00 [info]: First name is entered as Smith
-2024-08-12T20:57:31-04:00 [info]: Save button is clicked
-2024-08-12T20:57:31-04:00 [info]: Save button is clicked
-2024-08-12T20:57:32-04:00 [info]: Contact John Doe was created
-2024-08-12T20:57:32-04:00 [info]: Creating new contact test completed
-2024-08-12T20:57:33-04:00 [info]: Contact Jane Mitchell was created
-2024-08-12T20:57:33-04:00 [info]: Creating new contact test completed
-2024-08-12T20:57:33-04:00 [info]: Contact Bob Smith was created
-2024-08-12T20:57:33-04:00 [info]: Creating new contact test completed
-2024-08-12T21:04:43-04:00 [info]: Creating new contact test started
-2024-08-12T21:04:43-04:00 [info]: Creating new contact test started
-2024-08-12T21:04:43-04:00 [info]: Creating new contact test started
-2024-08-12T21:04:43-04:00 [info]: Navigated to login page
-2024-08-12T21:04:43-04:00 [info]: Navigated to login page
-2024-08-12T21:04:43-04:00 [info]: Navigated to login page
-2024-08-12T21:04:43-04:00 [info]: Entered username
-2024-08-12T21:04:43-04:00 [info]: Entered username
-2024-08-12T21:04:43-04:00 [info]: Entered password
-2024-08-12T21:04:43-04:00 [info]: Entered username
-2024-08-12T21:04:43-04:00 [info]: Entered password
-2024-08-12T21:04:43-04:00 [info]: Entered password
-2024-08-12T21:04:44-04:00 [info]: Clicked login button
-2024-08-12T21:04:44-04:00 [info]: Clicked login button
-2024-08-12T21:04:44-04:00 [info]: Clicked login button
-2024-08-12T21:04:46-04:00 [info]: Service title is visible
-2024-08-12T21:04:46-04:00 [info]: App launcher button is clicked
-2024-08-12T21:04:47-04:00 [info]: Service title is visible
-2024-08-12T21:04:47-04:00 [info]: App launcher button is clicked
-2024-08-12T21:04:47-04:00 [info]: Service title is visible
-2024-08-12T21:04:47-04:00 [info]: App launcher button is clicked
-2024-08-12T21:04:48-04:00 [info]: Service app is clicked
-2024-08-12T21:04:48-04:00 [info]: Service app is clicked
-2024-08-12T21:04:48-04:00 [info]: Service app is clicked
-2024-08-12T21:04:50-04:00 [info]: Contact tab is visible
-2024-08-12T21:04:50-04:00 [info]: Contact tab is clicked
-2024-08-12T21:04:50-04:00 [info]: Contact tab is visible
-2024-08-12T21:04:50-04:00 [info]: Contact tab is visible
-2024-08-12T21:04:50-04:00 [info]: Contact tab is clicked
-2024-08-12T21:04:50-04:00 [info]: Contact tab is clicked
-2024-08-12T21:04:51-04:00 [info]: New contact button is clicked
-2024-08-12T21:04:52-04:00 [info]: New contact button is clicked
-2024-08-12T21:04:52-04:00 [info]: New contact button is clicked
-2024-08-12T21:04:52-04:00 [info]: First name is entered as Jane
-2024-08-12T21:04:52-04:00 [info]: First name is entered as Mitchell
-2024-08-12T21:04:52-04:00 [info]: Save button is clicked
-2024-08-12T21:04:52-04:00 [info]: First name is entered as John
-2024-08-12T21:04:52-04:00 [info]: First name is entered as Doe
-2024-08-12T21:04:52-04:00 [info]: Save button is clicked
-2024-08-12T21:04:52-04:00 [info]: First name is entered as Bob
-2024-08-12T21:04:52-04:00 [info]: First name is entered as Smith
-2024-08-12T21:04:53-04:00 [info]: Save button is clicked
-2024-08-12T21:04:54-04:00 [info]: Contact Jane Mitchell was created
-2024-08-12T21:04:54-04:00 [info]: Creating new contact test completed
-2024-08-12T21:04:54-04:00 [info]: Contact John Doe was created
-2024-08-12T21:04:54-04:00 [info]: Creating new contact test completed
-2024-08-12T21:04:55-04:00 [info]: Contact Bob Smith was created
-2024-08-12T21:04:55-04:00 [info]: Creating new contact test completed
+2024-08-16T22:38:51-04:00 [info]: Creating new contact test started
+2024-08-16T22:38:51-04:00 [info]: Creating new contact test started
+2024-08-16T22:38:52-04:00 [info]: Login is successful
+2024-08-16T22:38:52-04:00 [info]: Login is successful
+2024-08-16T22:38:54-04:00 [info]: Service title is visible
+2024-08-16T22:38:54-04:00 [info]: Service title is visible
+2024-08-16T22:38:54-04:00 [info]: App launcher button is clicked
+2024-08-16T22:38:55-04:00 [info]: App launcher button is clicked
+2024-08-16T22:38:55-04:00 [info]: Service app is clicked
+2024-08-16T22:38:56-04:00 [info]: Service app is clicked
+2024-08-16T22:38:58-04:00 [info]: Contact tab is visible
+2024-08-16T22:38:58-04:00 [info]: Contact tab is clicked
+2024-08-16T22:38:58-04:00 [info]: Contact tab is visible
+2024-08-16T22:38:58-04:00 [info]: Contact tab is clicked
+2024-08-16T22:38:59-04:00 [info]: New contact button is clicked
+2024-08-16T22:38:59-04:00 [info]: New contact button is clicked
+2024-08-16T22:39:00-04:00 [info]: First name is entered as Ernest
+2024-08-16T22:39:00-04:00 [info]: First name is entered as Carolina
+2024-08-16T22:39:00-04:00 [info]: First name is entered as Carter
+2024-08-16T22:39:00-04:00 [info]: First name is entered as Casper
+2024-08-16T22:39:01-04:00 [info]: Save button is clicked
+2024-08-16T22:39:01-04:00 [info]: Contact Carolina Carter was created
+2024-08-16T22:39:01-04:00 [info]: Creating new contact test completed
+2024-08-16T22:39:01-04:00 [info]: Save button is clicked
+2024-08-16T22:39:01-04:00 [info]: Contact Ernest Casper was created
+2024-08-16T22:39:01-04:00 [info]: Creating new contact test completed
+2024-08-16T22:41:24-04:00 [info]: Creating new contact test started
+2024-08-16T22:41:24-04:00 [info]: Creating new contact test started
+2024-08-16T22:41:24-04:00 [info]: Creating new contact test started
+2024-08-16T22:41:24-04:00 [info]: Creating new contact test started
+2024-08-16T22:41:24-04:00 [info]: Creating new contact test started
+2024-08-16T22:41:26-04:00 [info]: Login is successful
+2024-08-16T22:41:26-04:00 [info]: Login is successful
+2024-08-16T22:41:26-04:00 [info]: Login is successful
+2024-08-16T22:41:26-04:00 [info]: Login is successful
+2024-08-16T22:41:26-04:00 [info]: Login is successful
+2024-08-16T22:41:29-04:00 [info]: Service title is visible
+2024-08-16T22:41:29-04:00 [info]: App launcher button is clicked
+2024-08-16T22:41:29-04:00 [info]: Service title is visible
+2024-08-16T22:41:30-04:00 [info]: App launcher button is clicked
+2024-08-16T22:41:30-04:00 [info]: Service title is visible
+2024-08-16T22:41:30-04:00 [info]: App launcher button is clicked
+2024-08-16T22:41:30-04:00 [info]: Service title is visible
+2024-08-16T22:41:30-04:00 [info]: Service app is clicked
+2024-08-16T22:41:30-04:00 [info]: Service app is clicked
+2024-08-16T22:41:30-04:00 [info]: Service title is visible
+2024-08-16T22:41:31-04:00 [info]: App launcher button is clicked
+2024-08-16T22:41:31-04:00 [info]: App launcher button is clicked
+2024-08-16T22:41:32-04:00 [info]: Service app is clicked
+2024-08-16T22:41:32-04:00 [info]: Service app is clicked
+2024-08-16T22:41:32-04:00 [info]: Contact tab is visible
+2024-08-16T22:41:33-04:00 [info]: Service app is clicked
+2024-08-16T22:41:33-04:00 [info]: Contact tab is clicked
+2024-08-16T22:41:33-04:00 [info]: Contact tab is visible
+2024-08-16T22:41:33-04:00 [info]: Contact tab is clicked
+2024-08-16T22:41:34-04:00 [info]: New contact button is clicked
+2024-08-16T22:41:34-04:00 [info]: Contact tab is visible
+2024-08-16T22:41:34-04:00 [info]: New contact button is clicked
+2024-08-16T22:41:35-04:00 [info]: Contact tab is visible
+2024-08-16T22:41:35-04:00 [info]: Contact tab is clicked
+2024-08-16T22:41:35-04:00 [info]: First name is entered as Andy
+2024-08-16T22:41:35-04:00 [info]: Contact tab is clicked
+2024-08-16T22:41:35-04:00 [info]: Contact tab is visible
+2024-08-16T22:41:35-04:00 [info]: First name is entered as McDermott
+2024-08-16T22:41:36-04:00 [info]: First name is entered as Noemy
+2024-08-16T22:41:36-04:00 [info]: Contact tab is clicked
+2024-08-16T22:41:36-04:00 [info]: Save button is clicked
+2024-08-16T22:41:36-04:00 [info]: Contact Andy McDermott was created
+2024-08-16T22:41:36-04:00 [info]: Creating new contact test completed
+2024-08-16T22:41:36-04:00 [info]: First name is entered as O'Reilly
+2024-08-16T22:41:36-04:00 [info]: New contact button is clicked
+2024-08-16T22:41:36-04:00 [info]: Save button is clicked
+2024-08-16T22:41:36-04:00 [info]: Contact Noemy O'Reilly was created
+2024-08-16T22:41:36-04:00 [info]: Creating new contact test completed
+2024-08-16T22:41:37-04:00 [info]: New contact button is clicked
+2024-08-16T22:41:37-04:00 [info]: New contact button is clicked
+2024-08-16T22:41:37-04:00 [info]: First name is entered as Tobin
+2024-08-16T22:41:37-04:00 [info]: First name is entered as Kaden
+2024-08-16T22:41:38-04:00 [info]: First name is entered as Collins
+2024-08-16T22:41:38-04:00 [info]: First name is entered as Mayer
+2024-08-16T22:41:38-04:00 [info]: Save button is clicked
+2024-08-16T22:41:38-04:00 [info]: Contact Tobin Mayer was created
+2024-08-16T22:41:38-04:00 [info]: Creating new contact test completed
+2024-08-16T22:41:38-04:00 [info]: Save button is clicked
+2024-08-16T22:41:38-04:00 [info]: Contact Kaden Collins was created
+2024-08-16T22:41:38-04:00 [info]: Creating new contact test completed
+2024-08-16T22:41:38-04:00 [info]: First name is entered as Baby
+2024-08-16T22:41:39-04:00 [info]: First name is entered as Lowe
+2024-08-16T22:41:39-04:00 [info]: Save button is clicked
+2024-08-16T22:41:39-04:00 [info]: Contact Baby Lowe was created
+2024-08-16T22:41:39-04:00 [info]: Creating new contact test completed

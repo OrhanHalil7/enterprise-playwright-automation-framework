@@ -3,16 +3,18 @@ import LoginPage from '../pages/LoginPage';
 import { encrypt, decrypt } from '../utils/Cryptojs.utils';
 import { decryptEnvFile, encryptEnvFile } from '../utils/EncryptEnvFiles';
 import logger from '../utils/LoggerUtil';
+import HomePage from '../pages/HomePage';
+//const { test, expect } = require('@playwright/test');
+
+//Serial execution
+//test.describe.configure({ mode: 'serial' })
 
 
-
-test("Login test", async ({ page }) => {
+test("Login test", async ({ page, browser }) => {
     const loginPage = new LoginPage(page);
-    await loginPage.navigateToLoginPage();
-    await loginPage.fillUserName(process.env.userid!);
-    await loginPage.fillPassword(process.env.password!);
-    const homePage = await loginPage.clickLoginbutton();
-    //await homePage.expectServiceTitleToBeVisible();
+    await loginPage.loginUser(process.env.userid!, process.env.password!);
+    const homePage = new HomePage(page);
+    await homePage.expectServiceTitleToBeVisible();
     logger.info('Login successfully completed');
 });
 
@@ -36,10 +38,8 @@ test.skip("Encrypt and decrypt test", async ({ page }) => {
 
 test.skip("Login with encryption test", async ({ page }) => {
     const loginPage = new LoginPage(page);
-    await loginPage.navigateToLoginPage();
-    await loginPage.fillUserName(encrypt(process.env.userid!));
-    await loginPage.fillPassword(encrypt(process.env.password!));
-    const homePage = await loginPage.clickLoginbutton();
+    await loginPage.loginUser(process.env.userid!, process.env.password!);
+    const homePage = new HomePage(page);
     await homePage.expectServiceTitleToBeVisible();
 });
 

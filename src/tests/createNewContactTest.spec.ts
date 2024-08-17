@@ -1,20 +1,19 @@
 import { test } from '@playwright/test';
 import LoginPage from '../pages/LoginPage';
 import logger from '../utils/LoggerUtil';
-import cdata from '../testdata/contacts.json';
+import cdata from '../testdata/testdata.json';
 import ContactsPage from '../pages/ContactsPage';
 import { convertCsvFileToJsonFile } from '../utils/CsvToJsonUtil';
 import { exportToCsv, exportToJson, generateUserData } from '../utils/FakerDataUtil';
+import HomePage from '../pages/HomePage';
 //import { convertCsvFileToJsonFile } from '../utils/CSVToJSONUtil';
 
 for (const contact of cdata) {
-    test.skip(`Create new contact test for ${contact.firstName}`, async ({ page }) => {
+    test(`Create new contact test for ${contact.firstName}`, async ({ page }) => {
         logger.info(`Creating new contact test started`);
         const loginPage = new LoginPage(page);
-        await loginPage.navigateToLoginPage();
-        await loginPage.fillUserName(process.env.userid!);
-        await loginPage.fillPassword(process.env.password!);
-        const homePage = await loginPage.clickLoginbutton();
+        await loginPage.loginUser(process.env.userid!, process.env.password!);
+        const homePage = new HomePage(page);
         await homePage.expectServiceTitleToBeVisible();
         await homePage.NavigateToContactsTab();
         const contactsPage = new ContactsPage(page);
@@ -32,7 +31,7 @@ test.skip('Convert CSV to JSON test', async ({ page }) => {
 })
 
 test.skip('Faker test data generation test', async ({ page }) => {
-    const testData = generateUserData(10);
+    const testData = generateUserData(5);
     exportToJson(testData, 'testdata.json');
     exportToCsv(testData, 'testdata.csv');
 
