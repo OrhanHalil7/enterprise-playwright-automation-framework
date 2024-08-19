@@ -4,7 +4,8 @@ import ContactsPage from '../pages/ContactsPage';
 
 export default class HomePage {
 
-    private readonly serviceTitleLocator = 'Service';
+    private readonly serviceTitleLocatorService = 'Service';
+    private readonly serviceTitleLocatorSetup = 'Setup';
     private readonly appLauncherLocator = 'App Launcher';
     private readonly contactTabLocator = 'Contact';
     private readonly serviceAppLocator = 'Service';
@@ -13,8 +14,8 @@ export default class HomePage {
     constructor(private page: Page) { }
 
 
-    async expectServiceTitleToBeVisible() {
-        await expect(this.page.getByTitle(this.serviceTitleLocator)).toBeVisible({ timeout: 15000 })
+    async expectPageTitleToBeVisible() {
+        await expect(this.page.getByTitle(this.serviceTitleLocatorSetup, { exact: true }).or(this.page.getByTitle(this.serviceTitleLocatorService, { exact: true }))).toBeVisible({ timeout: 15000 })
             .catch((error) => {
                 logger.error(`Error waiting for service title to be visible: ${error}`);
                 throw error;
@@ -22,7 +23,7 @@ export default class HomePage {
     }
 
 
-    async NavigateToContactsTab() {
+    async navigateToContactsTab() {
         await expect(this.page.getByRole('button', { name: this.appLauncherLocator })).toBeVisible();
         await this.page.getByRole('button', { name: this.appLauncherLocator }).click().catch((error) => {
             logger.error(`Error clicking app launcher button: ${error}`);
@@ -39,5 +40,9 @@ export default class HomePage {
         await this.page.getByRole('link', { name: this.contactTabLocator }).click();
         logger.info('Contact tab is clicked');
         return new ContactsPage(this.page);
+    }
+
+    async navigateToHomePage() {
+        await this.page.goto('https://paysafegroup3-dev-ed.develop.lightning.force.com/lightning/setup/SetupOneHome/home');
     }
 }

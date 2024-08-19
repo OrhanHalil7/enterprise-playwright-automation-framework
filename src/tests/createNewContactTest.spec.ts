@@ -1,22 +1,16 @@
-import { test } from '@playwright/test';
-import LoginPage from '../pages/LoginPage';
+import { test } from '../fixtures/basePage';
 import logger from '../utils/LoggerUtil';
 import cdata from '../testdata/testdata.json';
-import ContactsPage from '../pages/ContactsPage';
 import { convertCsvFileToJsonFile } from '../utils/CsvToJsonUtil';
 import { exportToCsv, exportToJson, generateUserData } from '../utils/FakerDataUtil';
-import HomePage from '../pages/HomePage';
 //import { convertCsvFileToJsonFile } from '../utils/CSVToJSONUtil';
 
 for (const contact of cdata) {
-    test(`Create new contact test for ${contact.firstName}`, async ({ page }) => {
+    test(`Create new contact test for ${contact.firstName}`, async ({ loginPage, homePage, contactsPage }) => {
         logger.info(`Creating new contact test started`);
-        const loginPage = new LoginPage(page);
-        await loginPage.loginUser(process.env.userid!, process.env.password!);
-        const homePage = new HomePage(page);
-        await homePage.expectServiceTitleToBeVisible();
-        await homePage.NavigateToContactsTab();
-        const contactsPage = new ContactsPage(page);
+        await homePage.navigateToHomePage(); //await loginPage.loginUser(process.env.userid!, process.env.password!);
+        await homePage.expectPageTitleToBeVisible();
+        await homePage.navigateToContactsTab();
         await contactsPage.createNewContact(contact.firstName, contact.lastName);
         await contactsPage.expectNewContactToBeCreatedCorrect(contact.firstName, contact.lastName);
         logger.info(`Creating new contact test completed`);

@@ -1,20 +1,16 @@
-import { test } from '@playwright/test';
-import LoginPage from '../pages/LoginPage';
+import { test } from '../fixtures/basePage';
 import { encrypt, decrypt } from '../utils/Cryptojs.utils';
 import { decryptEnvFile, encryptEnvFile } from '../utils/EncryptEnvFiles';
 import logger from '../utils/LoggerUtil';
-import HomePage from '../pages/HomePage';
 //const { test, expect } = require('@playwright/test');
 
 //Serial execution
 //test.describe.configure({ mode: 'serial' })
 
 
-test("Login test", async ({ page, browser }) => {
-    const loginPage = new LoginPage(page);
+test("Login test", async ({ loginPage, homePage }) => {
     await loginPage.loginUser(process.env.userid!, process.env.password!);
-    const homePage = new HomePage(page);
-    await homePage.expectServiceTitleToBeVisible();
+    await homePage.expectPageTitleToBeVisible();
     logger.info('Login successfully completed');
 });
 
@@ -36,10 +32,8 @@ test.skip("Encrypt and decrypt test", async ({ page }) => {
     // decryptEnvFile();
 });
 
-test.skip("Login with encryption test", async ({ page }) => {
-    const loginPage = new LoginPage(page);
+test.skip("Login with encryption test", async ({ loginPage, homePage }) => {
     await loginPage.loginUser(process.env.userid!, process.env.password!);
-    const homePage = new HomePage(page);
-    await homePage.expectServiceTitleToBeVisible();
+    await homePage.expectPageTitleToBeVisible();
 });
 

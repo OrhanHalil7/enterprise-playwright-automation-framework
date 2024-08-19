@@ -1,6 +1,4 @@
-import { test } from '@playwright/test';
-import LoginPage from '../pages/LoginPage';
-import { encrypt, decrypt } from '../utils/Cryptojs.utils';
+import { test } from '../fixtures/basePage';
 import { decryptEnvFile, encryptEnvFile } from '../utils/EncryptEnvFiles';
 import logger from '../utils/LoggerUtil';
 import { exportToCsv, exportToJson, generateUserData } from '../utils/FakerDataUtil';
@@ -11,11 +9,9 @@ import HomePage from '../pages/HomePage';
 //test.describe.configure({ mode: 'serial' })
 
 
-test("Login test", async ({ page }) => {
-    const loginPage = new LoginPage(page);
+test("Login test", async ({ loginPage, homePage }) => {
     await loginPage.loginUser(process.env.userid!, process.env.password!);
-    const homePage = new HomePage(page);
-    await homePage.expectServiceTitleToBeVisible();
+    await homePage.expectPageTitleToBeVisible();
     logger.info('Login successfully completed');
 });
 
