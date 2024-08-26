@@ -8,6 +8,7 @@ import logger from '../utils/LoggerUtil';
 //test.describe.configure({ mode: 'serial' })
 
 
+
 test("Login test", async ({ loginPage, homePage }) => {
     await loginPage.loginUser(process.env.userid!, process.env.password!);
     await homePage.expectPageTitleToBeVisible();
